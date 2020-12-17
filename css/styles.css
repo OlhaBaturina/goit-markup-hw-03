@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -14,8 +17,22 @@ body {
   --accent-color: #2196f3;
 }
 
-/* Задать общую ширину документа
-.container */
+.container {
+  width: 1170px;
+}
+
+/* Сбрасывает отступы */
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 a {
   font-family: inherit;
@@ -30,6 +47,15 @@ address {
 
 li {
   list-style: none;
+}
+
+.header-container {
+  margin-bottom: 0;
+  background-color: aqua;
+  display: inline-flex;
+
+  flex-direction: row;
+  align-items: stretch;
 }
 
 /* Скрытые заголовки */
