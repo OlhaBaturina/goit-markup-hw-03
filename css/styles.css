@@ -1,0 +1,206 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --main-background-color: #e5e5e5;
+  --darck-background-color: #2f303a;
+  --command-background-color: #f5f4fa;
+  --heading-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* Задать общую ширину документа
+.container */
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  font-family: inherit;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+/* Скрытые заголовки */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* Подзаголовки */
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+/* логотип */
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.footer-box .logo {
+  color: #ffffff;
+}
+
+/*Навигация */
+.nav {
+  color: var(--heading-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus,
+.current {
+  color: var(--accent-color);
+}
+/* Адрес в навигации */
+.address {
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+  text-align: center;
+}
+
+/* Подвал */
+.footer-box {
+  background-color: var(--darck-background-color);
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Страница 1 - Index.html */
+
+/* Герой */
+.hero-box {
+  background-color: var(--darck-background-color);
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  color: inherit;
+}
+
+/* О компании */
+
+.advantage-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+.advantage-text {
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+
+/* Команда */
+.command-box {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.command-name {
+  color: var(--heading-color);
+}
+
+.command-position {
+  color: var(--main-text-color);
+}
+
+/* Страница 2 - Portfolio.html */
+
+/* Кнопки*/
+.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--heading-color);
+  background-color: var(--command-background-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Курсор на кнопки  */
+.cursor {
+  cursor: pointer;
+}
+
+/* Портфолио проектов_Общий класс-product */
+
+.product-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+
+.product-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
+}
