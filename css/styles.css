@@ -70,10 +70,15 @@ h2 {
 /* Общий контейнер */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: 0 auto;
   margin-right: 0 auto;
   padding: 0 15px;
+}
+
+/* !! */
+header > li {
+display: inline;
 }
 
 /* контейнер верхней панели */
@@ -113,11 +118,8 @@ h2 {
   color: var(--accent-color);
 }
 
-.footer-box .logo {
-  color: #ffffff;
-}
-
 /*Навигация */
+
 .nav {
   color: var(--heading-color);
   font-size: 14px;
@@ -144,12 +146,12 @@ h2 {
 .current {
   color: var(--accent-color);
 }
+
 /* Адрес в навигации */
+
 .address-container{
   display: flex;
-  /* align-items: center; */
   justify-content: flex-end;
-  /* align-content: flex-end; */
 }
 
 .address-container .nav-link:not(:last-child) {
@@ -167,24 +169,10 @@ h2 {
   text-align: center;
 }
 
-/* Подвал */
-.footer-box {
-  background-color: var(--darck-background-color);
-  line-height: 1.71;
-  font-style: normal;
-}
-
-.footer-address {
-  color: #ffffff;
-}
-
-.footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 /* Страница 1 - Index.html */
 
 /* Герой */
+
 .hero-box {
   background-color: var(--darck-background-color);
   color: #ffffff;
@@ -192,6 +180,7 @@ h2 {
   letter-spacing: 0.06em;
 
   /* Позиционирование */
+
   display: block;
   padding-top: 200px;
   padding-bottom: 210px;
@@ -214,6 +203,7 @@ h2 {
   color: inherit;
 
   /* Стили кнопки */
+
   display: inline-block;
   position: inherit;
   width: 200px;
@@ -221,6 +211,12 @@ h2 {
   border-radius: 4px;
   padding: 10px;
   position: relative;
+}
+
+/* Блок преимущества и услуги */
+
+.company-box {
+background-color: var(--main-background-color);
 }
 
 /* О компании */
@@ -240,8 +236,10 @@ h2 {
 }
 
 /* Позиционирование */
+
 .section-company {
   display: flex;
+
   align-items: baseline;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -250,29 +248,125 @@ h2 {
 .block-company {
   display: inline-block;
   width: 270px;
+  margin-bottom: 84px;
   }
 
   .block-company:not(:last-child) {
     margin-right: 30px;
   }
 
+  /* Чем мы занимаемся */
+
+.section-service {
+  display: flex;
+  margin-top: 50px; 
+  margin-bottom: 94px; 
+}
+
+.service-list {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+
+.service-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Команда */
+
 .command-box {
   font-style: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
+  display: flex;
+  margin-top: 50px;
 }
 
 .command-name {
   color: var(--heading-color);
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .command-position {
   color: var(--main-text-color);
+  }
+
+.command-section {
+  background-color: var(--command-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
+.command-people {
+  display: block;
+  width: 270px;
+  height: 368px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 94px;
+}
+
+.command-people:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Подвал */
+
+.footer-box {
+  background-color: var(--darck-background-color);
+  line-height: 1.71;
+  font-style: normal;
+
+  display: block;
+  /* width: 1600px; */
+  height: 252px;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* padding-left: 215px; */
+}
+
+.footer-box .logo {
+  color: #ffffff;
+
+  display: block;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer-address {
+  color: #ffffff;
+  padding-bottom: 9px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts.mail {
+  display: block;
+  padding-bottom: 9px;
+}
+
+
 /* Страница 2 - Portfolio.html */
+
+/*  */
+
+.container.border {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.section-product {
+  background: #E5E5E5;
+}
+
 
 /* Кнопки*/
 .filter {
@@ -283,6 +377,8 @@ h2 {
   text-align: center;
   color: var(--heading-color);
   background-color: var(--command-background-color);
+
+
 }
 
 .filter:hover,
@@ -292,7 +388,8 @@ h2 {
 }
 
 /* Курсор на кнопки  */
-.cursor {
+.filter.cursor:hover,
+.filter.cursor:focus {
   cursor: pointer;
 }
 
