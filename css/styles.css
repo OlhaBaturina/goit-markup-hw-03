@@ -73,8 +73,8 @@ h2 {
 
 .container {
   width: 1200px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
 }
 
@@ -86,14 +86,18 @@ header > li {
 
 /* контейнер верхней панели */
 
-.header-container {
-  display: flex;
-  /* align-content: space-between; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  height: 80px;
+header {
   border-bottom: 1px solid #ececec;
 }
+
+.header-container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  align-items: center;
+  /* height: 80px; */
+}
+
 .nav-conteiner {
   display: flex;
   /* align-items: center; */
@@ -105,9 +109,9 @@ header > li {
 .logo {
   /* display: flex; */
   /* display: block; */
-  margin-top: 24px;
+  margin-top: 0px;
   margin-right: 93px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   font-family: Raleway, sans-serif;
   color: #000000;
   font-weight: 700;
@@ -130,12 +134,9 @@ header > li {
 
 .link-list {
   display: flex;
-  /* align-items: center; */
-}
-
-.nav-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
 .nav-link:not(:last-child) {
@@ -160,8 +161,8 @@ header > li {
   display: inline-block;
   /* text-align: right;
   position: inherit; */
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .address-link:not(:last-child) {
@@ -438,6 +439,13 @@ header > li {
   margin-bottom: 30px;
 }
 
+.product-box {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
 .product-title {
   font-weight: 700;
   font-size: 18px;
@@ -445,9 +453,6 @@ header > li {
   letter-spacing: 0.06em;
   color: var(--heading-color);
 
-  /* display: block; */
-  padding-top: 20px;
-  padding-left: 24px;
   padding-bottom: 4px;
 }
 
@@ -459,5 +464,4 @@ header > li {
 
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 24px;
 }
