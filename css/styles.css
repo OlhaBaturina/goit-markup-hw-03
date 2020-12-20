@@ -228,10 +228,16 @@ header {
 
 .company-box {
   background-color: #ffffff;
+}
+
+.section-company {
+  padding-top: 94px;
+}
+
+.service-box {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 /* О компании */
 
 .advantage-title {
@@ -250,7 +256,7 @@ header {
 
 /* Позиционирование */
 
-.company-section {
+.company-list {
   display: flex;
   padding: 0;
   margin: 0;
@@ -259,7 +265,6 @@ header {
 .block-company {
   display: inline-block;
   width: 270px;
-  margin-bottom: 84px;
 }
 
 .block-company:not(:last-child) {
