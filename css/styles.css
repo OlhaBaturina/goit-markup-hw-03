@@ -86,17 +86,18 @@ header > li {
 
 /* контейнер верхней панели */
 
-/.header-container {
+.header-container {
   display: flex;
-  align-content: space-between;
+  /* align-content: space-between; */
   /* align-items: center; */
   /* justify-content: space-between; */
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 .nav-conteiner {
   display: flex;
   /* align-items: center; */
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
 }
 
 /* логотип */
@@ -129,7 +130,7 @@ header > li {
 
 .link-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-link {
@@ -151,11 +152,16 @@ header > li {
 
 .address-container {
   display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .address-link {
-  display: inline;
+  display: inline-block;
+  /* text-align: right;
+  position: inherit; */
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .address-link:not(:last-child) {
@@ -214,13 +220,13 @@ header > li {
   height: 50px;
   border-radius: 4px;
   padding: 10px;
-  position: relative;
+  /* position: relative; */
 }
 
 /* Блок преимущества и услуги */
 
 .company-box {
-  background-color: var(--main-background-color);
+  background-color: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -243,7 +249,7 @@ header > li {
 
 /* Позиционирование */
 
-.section-company {
+.company-section {
   display: flex;
   padding: 0;
   margin: 0;
@@ -365,14 +371,8 @@ header > li {
 
 /* Страница 2 - Portfolio.html */
 
-/*  */
-
-.container.border {
-  border-bottom: 1px solid #ececec;
-}
-
 .section-product {
-  background: #e5e5e5;
+  background: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
