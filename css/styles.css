@@ -152,7 +152,15 @@ header > li {
   justify-content: flex-end;
 }
 
-.address-container .nav-link:not(:last-child) {
+/* .address-container .nav-link:not(:last-child) {
+  margin-right: 50px;
+} */
+
+.address-link {
+  display: inline;
+}
+
+.address-link:not(:last-child) {
   margin-right: 50px;
 }
 
