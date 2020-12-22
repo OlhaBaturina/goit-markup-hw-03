@@ -226,17 +226,15 @@ header {
 
 /* Блок преимущества и услуги */
 
-.company-box {
-  background-color: #ffffff;
-}
-
 .section-company {
   padding-top: 94px;
+  background-color: #ffffff;
 }
 
 .service-box {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #ffffff;
 }
 /* О компании */
 
