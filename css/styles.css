@@ -334,18 +334,18 @@ header {
 
 /* Подвал */
 
-.footer-box {
+.footer {
   background-color: var(--darck-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-box {
   line-height: 1.71;
   font-style: normal;
 
   display: block;
-  /* width: 1600px; */
-  height: 252px;
   margin: 0;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  /* padding-left: 215px; */
 }
 
 .footer-box .logo {
