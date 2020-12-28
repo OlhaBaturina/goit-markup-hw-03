@@ -341,11 +341,15 @@ header {
 }
 
 .footer-box {
+  display: inline-block;
+
   line-height: 1.71;
   font-style: normal;
+}
 
-  display: block;
-  margin: 0;
+.footer-container {
+  display: flex;
+  align-items: center;
 }
 
 .footer-box .logo {
